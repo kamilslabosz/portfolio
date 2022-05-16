@@ -69,26 +69,62 @@
       <p class="indie heading"><b>After learning programming, I started building programs to use in my daily life, be it a simple script that converts text messages to shopping list or relative databases that make it easy to track and compare game
           collections with my friends.</b></p>
       <h3>Some of my projects include:</h3>
-      <h4>Webapp for tabletop gamers</h4>
-      <div class="row">
-        <div class="col-6">
-          <h5>Functions:</h5>
-          <p>Creating Users</p>
-          <p>Creating Boardgame Collection database</p>
-          <p>Tracking number of TTRPG sessions</p>
+      <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <h4>Webapp for tabletop gamers</h4>
+            <div class="row">
+              <div class="col-6">
+                <h5>Functions:</h5>
+                <p>Creating Users</p>
+                <p>Creating Boardgame Collection database</p>
+                <p>Tracking number of TTRPG sessions</p>
+              </div>
+              <div class="col-6">
+                <h5>Built with:</h5>
+                <p>Python 3.10</p>
+                <p>Flask</p>
+                <p>SQL Alchemy</p>
+                <p>WTForms</p>
+                <p>Bootstrap 5</p>
+              </div>
+            </div>
+            <h3><a href="https://github.com/kamilslabosz/Tabletop-Group">Check this project on Github</a></h3>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <h4>Message to list converter</h4>
+            <div class="row">
+              <div class="col-6">
+                <h5>Functions:</h5>
+                <p>Change comma separeted text to html buttons</p>
+              </div>
+              <div class="col-6">
+                <h5>Built with:</h5>
+                <p>Python 3.10</p>
+                <p>Flask</p>
+                <p>Bootstrap 5</p>
+              </div>
+            </div>
+            <h3><a href="https://github.com/kamilslabosz/todo_list">Check this project on Github</a></h3>
+            <p>(Deployed as part of Tabletop Group Webapp)</p>
+          </div>
         </div>
-        <div class="col-6">
-          <h5>Built with:</h5>
-          <p>Python 3.10</p>
-          <p>Flask</p>
-          <p>SQL Alchemy</p>
-          <p>WTForms</p>
-          <p>Bootstrap 5</p>
-        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <h3><a href="https://github.com/kamilslabosz/Tabletop-Group">Check this project on Github</a></h3>
+      <h3 class="indie">Have some questions?</h3>
+      <h3>Contact me!</h3>
     </div>
-    <div class="col-2"></div>
+
+  </div>
+  <div class="col-2"></div>
 
   </div>
   <div class="footer text-center">
@@ -98,6 +134,7 @@
     <p class="nav-font footer-font">Copyright &copy; Kamil Słabosz 2022</p>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
 

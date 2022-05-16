@@ -1,24 +1,23 @@
 /* ----------------GENERAL---------------------- */
 h1, .indie {
-    font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 
 p, h3, h4, h5 .oswald {
-   font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
-body {
-    background-color: #E0D8B0;
-    color: white;
+body, .carousel-inner {
+  background-color: #E0D8B0;
 }
 
 a {
-    color: #CE9461;
-    text-decoration: none;
+  color: #CE9461;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #E0D8B0;
+  color: #E0D8B0;
 }
 
 #main-body {
@@ -30,31 +29,30 @@ a:hover {
 }
 
 /* ----------------FOOTER---------------------- */
-
 .footer {
-    background-color: #CE9461;
-
-    width: 100%;
+  background-color: #CE9461;
+  width: 100%;
 }
 
 .footer-font {
-    margin-bottom: 0px;
+  margin-bottom: 0;
+  color: white;
 }
 
 .footer-icon {
-    font-size: 2rem;
-    margin-top: 10px;
+  font-size: 2rem;
+  margin-top: 10px;
 }
 
 .footer-link {
-    color: white;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .footer-link:hover {
-    color: #DEA057;
+  color: #DEA057;
 }
 
 .skills-btn {
@@ -79,6 +77,12 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.heading{
+.heading {
   font-size: 20px;
+}
+
+.carousel-inner {
+  padding-top: 6px;
+  margin-bottom: 12px;
+  border-radius: 6px;
 }
