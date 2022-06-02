@@ -27,6 +27,7 @@
     <div class="col-2"></div>
     <div id="main-body" class="col-8 text-center">
       <h1>My name is Kamil</h1>
+      <img class="face-img" src="img/face.jpg" alt="my picture"/>
       <h3 class="indie">I'm a programmer</h3>
       <p class="indie heading"> <b>I'm a self-learner with passion for tabletop games, cinema and comicbooks.</b></p>
       <h3 class="oswald">My Skills</h3>
@@ -43,36 +44,77 @@
             <button class="btn btn-lg skills-btn" type="button" id="OSkills">Other</button>
           </div>
         </div>
-        <div id="python-skills">
-          <p>Flask</p>
-          <p>Pytest</p>
-          <p>SQLAlchemy</p>
-          <p>WTForms</p>
-          <p>Beautiful Soup</p>
-          <p>Selenium Web Driver</p>
+        <div id="python-skills" class="row">
+          <div class="col-6">
+            <p>Flask</p>
+          </div>
+          <div class="col-6">
+            <p>Pytest</p>
+          </div>
+          <div class="col-6">
+            <p>SQLAlchemy</p>
+          </div>
+          <div class="col-6">
+            <p>WTForms</p>
+          </div>
+          <div class="col-6">
+            <p>Beautiful Soup</p>
+          </div>
+          <div class="col-6">
+            <p>Selenium Web Driver</p>
+          </div>
         </div>
-        <div id="js-skills">
-          <p>jQuery</p>
-          <p>node.js</p>
-          <p>express</p>
-          <p>EJS</p>
+        <div id="js-skills" class="row">
+          <div class="col-6">
+            <p>React.js</p>
+          </div>
+          <div class="col-6">
+            <p>express</p>
+          </div>
+          <div class="col-6">
+            <p>EJS</p>
+          </div>
+          <div class="col-6">
+            <p>mongoose</p>
+          </div>
+          <div class="col-6">
+            <p>passport.js</p>
+          </div>
+          <div class="col-6">
+            <p>node.js</p>
+          </div>
         </div>
-        <div id="other-skills">
-          <p>SQLite</p>
-          <p>Bootstrap 5</p>
-          <p>git</p>
-          <p>English C1</p>
-          <p>Polish Native</p>
-          <p>Good work-time management</p>
+        <div id="other-skills" class="row">
+          <div class="col-6">
+            <p>SQLite</p>
+          </div>
+          <div class="col-6">
+            <p>MongoDB</p>
+          </div>
+          <div class="col-6">
+            <p>Bootstrap 5</p>
+          </div>
+          <div class="col-6">
+            <p>git</p>
+          </div>
+          <div class="col-6">
+            <p>English C1</p>
+          </div>
+          <div class="col-6">
+            <p>Polish Native</p>
+          </div>
         </div>
       </div>
-      <p class="indie heading"><b>After learning programming, I started building programs to use in my daily life, be it a simple script that converts text messages to shopping list or relative databases that make it easy to track and compare game
-          collections with my friends.</b></p>
+      <p class="heading">After learning programming, I started building programs to use in my daily life, be it a simple script that converts text messages to shopping list or relative databases that make it easy to track and compare game
+        collections with my friends.</p>
       <h3>Some of my projects include:</h3>
       <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
             <h4>Webapp for tabletop gamers</h4>
+            <a href="https://tabletop-group.herokuapp.com/">
+              <img class="app-img" src="img/tabletop-group.png" alt="app preview">
+            </a>
             <div class="row">
               <div class="col-6">
                 <h5>Functions:</h5>
@@ -89,10 +131,13 @@
                 <p>Bootstrap 5</p>
               </div>
             </div>
-            <h3><a href="https://github.com/kamilslabosz/Tabletop-Group">Check this project on Github</a></h3>
+            <h3><a class="github-link" href="https://github.com/kamilslabosz/Tabletop-Group">Check this project on Github</a></h3>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <h4>Message to list converter</h4>
+            <a href="https://tabletop-group.herokuapp.com/todo">
+              <img class="app-img" src="img/todo-list.png" alt="app preview">
+            </a>
             <div class="row">
               <div class="col-6">
                 <h5>Functions:</h5>
@@ -103,13 +148,40 @@
                 <p>Python 3.10</p>
                 <p>Flask</p>
                 <p>Bootstrap 5</p>
+                <br>
               </div>
             </div>
-            <h3><a href="https://github.com/kamilslabosz/todo_list">Check this project on Github</a></h3>
+            <h3><a class="github-link" href="https://github.com/kamilslabosz/todo_list">Check this project on Github</a></h3>
             <p>(Deployed as part of Tabletop Group Webapp)</p>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
+            <h4>Random training video</h4>
+            <a href="https://random-training-video.herokuapp.com/">
+              <img class="app-img" src="img/random-training.png" alt="app preview">
+            </a>
+            <div class="row">
+              <div class="col-6">
+                <h5>Functions:</h5>
+                <p>Creating</p>
+                <p>Create and store database of YT videos</p>
+                <p>Get random training video from your DB</p>
+              </div>
+              <div class="col-6">
+                <h5>Built with:</h5>
+                <p>EJS</p>
+                <p>Mongoose</p>
+                <p>passport.js</p>
+                <p>express</p>
+                <p>Bootstrap 5</p>
+              </div>
+            </div>
+            <h3><a class="github-link" href="https://github.com/kamilslabosz/Random-Training">Check this project on Github</a></h3>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
             <h4>Movie Premiere Radar</h4>
+            <a href="https://github.com/kamilslabosz/radarpremier">
+              <img class="app-img" src="img/webscraper.png" alt="app preview">
+            </a>
             <div class="row">
               <div class="col-6">
                 <h5>Functions:</h5>
@@ -122,7 +194,7 @@
                 <p>Beautiful Soup</p>
               </div>
             </div>
-            <h3><a href="https://github.com/kamilslabosz/radarpremier">Check this project on Github</a></h3>
+            <h3><a class="github-link" href="https://github.com/kamilslabosz/radarpremier">Check this project on Github</a></h3>
             <p>(Deployed as part of Tabletop Group Webapp)</p>
           </div>
         </div>
@@ -136,8 +208,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h3 class="indie">Have some questions?</h3>
-      <h3>Contact me!</h3>
+      <h3 class="indie">Have questions?</h3>
+      <a href="https://tabletop-group.herokuapp.com/contact-me">
+        <h3>Contact me!</h3>
+      </a>
     </div>
 
   </div>

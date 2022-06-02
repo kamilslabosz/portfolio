@@ -28,6 +28,13 @@ a:hover {
   margin: 12px 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+
 /* ----------------FOOTER---------------------- */
 .footer {
   background-color: #CE9461;
@@ -65,8 +72,12 @@ a:hover {
   padding: 0;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .btn-row {
-  padding: 0 12px;
   margin-bottom: 5px;
 }
 
@@ -85,4 +96,25 @@ a:hover {
   padding-top: 6px;
   margin-bottom: 12px;
   border-radius: 6px;
+}
+
+.app-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 250px;
+}
+
+.app-img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.github-link:hover {
+  color: #FCFFE7;
+}
+
+.face-img {
+  border-radius: 25%;
+  margin-bottom: 12px;
+  height: 200px;
 }
